@@ -43,12 +43,6 @@ class Alumni:
         m_title = Label(Manage_Frame, text="Insert Alumni Information", bg="firebrick", fg="white",font=("times new roman", 28, "bold"))
         m_title.grid(row=0, columnspan=2, pady=16)
 
-        #lbl_Alumni_ID = Label(Manage_Frame, text="Alumni_ID", bg="firebrick", fg="white",font=("times new roman", 20, "bold"))
-        #lbl_Alumni_ID.grid(row=1, column=0, pady=8, padx=5, sticky="w")
-
-        #txt_Alumni_ID = Entry(Manage_Frame, textvariable=self.Alumni_ID_var, font=("times new roman", 15, "bold",),bd=5, relief=GROOVE)
-        #txt_Alumni_ID.grid(row=1, column=1, pady=8, padx=5, sticky="w")
-
         lbl_Name = Label(Manage_Frame, text="Name" "*", bg="firebrick", fg="white", font=("times new roman", 19, "bold"))
         lbl_Name.grid(row=2, column=0, pady=10, padx=5, sticky="w")
 
